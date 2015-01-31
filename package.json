@@ -1,0 +1,21 @@
+{
+  "name": "wspipe",
+  "description": "web socket to tcp service pipe library",
+  "homepage": "https://github.com/openmason/wspipe",
+  "version": "0.0.1",
+  "author": "el aras <openmason@gmail.com>",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha"     : ">= 2.1.0",
+    "should"    : ">= 4.6.2"
+  },
+  "keywords": ["websocket", "tcp", "proxy"],
+  "repository": {"type":"git", "url": "git://github.com/openmason/wspipe"},
+  "main": "index",
+  "scripts": { 
+    "prepublish" : "npm prune",
+    "test" : "make test" 
+  },
+  "engines": { "node":">= 0.10.0" }
+}
