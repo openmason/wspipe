@@ -2,9 +2,10 @@
   "name": "wspipe",
   "description": "web socket to tcp service pipe library",
   "homepage": "https://github.com/openmason/wspipe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "el aras <openmason@gmail.com>",
   "dependencies": {
+    "ws" : ">= 0.7.1"
   },
   "devDependencies": {
     "mocha"     : ">= 2.1.0",
