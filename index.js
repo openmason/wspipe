@@ -77,7 +77,9 @@ function _newTcpClient(self, webSocket) {
 // debug request/response statements
 function log(debug, path, prefix, value) {
   if(debug) {
-    logger.debug('wsp['+path+'] '+prefix + value.replace(/[^A-Za-z 0-9 \.,\?""!@#\$%\^&\*\(\)-_=\+;:<>\/\\\|\}\{\[\]`~]*/g, ''));
+    try {
+      logger.debug('wsp['+path+'] '+prefix + value.replace(/[^A-Za-z 0-9 \.,\?""!@#\$%\^&\*\(\)-_=\+;:<>\/\\\|\}\{\[\]`~]*/g, ''));
+    } catch(e) { /* ignore any exceptions */ }
   }
 };
 

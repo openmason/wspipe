@@ -2,7 +2,7 @@
   "name": "wspipe",
   "description": "web socket to tcp service pipe library",
   "homepage": "https://github.com/openmason/wspipe",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "el aras <openmason@gmail.com>",
   "dependencies": {
     "ws" : ">= 0.7.1"
